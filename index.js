@@ -42,7 +42,7 @@ share.addEventListener("click", () => {
       .share({
         title: "Insta post",
         text: "Like my picture :)",
-        url: "https://shivamkumarjha.tech/#about",
+        url: "https://shivamkjha.github.io/InstaPost/",
       })
       .then(() => console.log("Successful share"))
       .catch((error) => console.log("Error sharing:", error));
